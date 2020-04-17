@@ -1,0 +1,123 @@
+body {
+	font-family: arial, sans-serif;
+}
+nav {
+	opacity: 0.75;
+	font-size: 13px;
+	display: flex;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+}
+#acc {
+	/* margin-left auto pushes it to the right side */
+	line-height: 28px;
+	margin-left: auto;
+}
+#acc li {
+	/* centers them along the boxes picture */
+	margin-left: 15px;
+}
+#about {
+	padding: 0;
+}
+#about li {
+	margin-left: 15px;
+}
+#gsuite {
+	height: 30px;
+	width: 30px;
+	background-image: url(./google_images.png);
+	background-position: -132px -38px;
+	background-size: 550px 68px;
+}
+#signin {
+	text-decoration: none;
+	color: white;
+	background-color: #4386f8;
+	border-radius: 2px;
+	text-align: center;
+	white-space: nowrap;
+	padding: 0 12px;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+#logo {
+	max-width: 100%;
+	margin: auto;
+}
+
+#search {
+	display: flex;
+	flex-direction: column;
+	margin: 15%;
+	text-align: center;
+}
+#search-field {
+	display: flex;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	box-shadow: none;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+#search-field:hover {
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+	border-color: rgba(223, 225, 229, 0);
+}
+#container-search-icon {
+	margin-top: 13px;
+	margin-left: 10px;
+}
+#search-icon {
+	opacity: 0.45;
+	height: 15px;
+}
+#container-search-input {
+    text-align: left;
+    flex-basis: 90%; /* This is what allows me to seperate the microphone all the way to the right, and with some width 100% below i can stretch out the text input */
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#search-input {
+    border: none;
+    border-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+#microphone {
+    margin-top: 10px;
+	margin-left: 10px;
+	height: 20px;
+}
+
+#search-buttons {
+	margin-top: 20px;
+}
+.button {
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: #f3f1f1;
+    border-radius: 4px;
+    padding: 0 18px;
+    height: 34px;
+    min-width: 54px;
+}
+.button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+#lucky-button {
+    margin-left: 10px;
+}
+/*
+I need to do some font stuff and finish up the Sign Up button
+*/

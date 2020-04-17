@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Google</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<nav>
+			<ul id="about">
+				<li>About</li>
+				<li>Store</li>
+			</ul>
+
+			<ul id="acc">
+				<li>Gmail</li>
+				<li>Images</li>
+				<li id="gsuite"></li>
+				<li id="signin">
+					<a href="" target="_blank" class="link">Sign in</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="search">
+			<img src="./google.png" alt="Google Logo" id="logo" />
+			<form id="search-field">
+				<div id="container-search-icon">
+					<img src="search.svg" alt="search icon" id="search-icon" />
+				</div>
+				<div id="container-search-input">
+					<input type="text" name="search" id="search-input" />
+				</div>
+				<div id="container-microphone">
+					<img
+						src="./Google_mic.svg"
+						alt="Google Microphone"
+						id="microphone"
+					/>
+				</div>
+			</form>
+			<div id="search-buttons">
+				<input
+					class="button"
+					type="button"
+					value="Google Search"
+					onclick="location.href='search.html'"
+				/>
+				<input
+					id="lucky-button"
+					class="button"
+					type="submit"
+					value="I'm Feeling Lucky"
+				/>
+			</div>
+		</div>
+	</body>
+</html>
